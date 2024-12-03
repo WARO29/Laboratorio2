@@ -32,4 +32,47 @@
 
 /* <-- cierre del mi header --> */
 
+/* <-- hero --> */
 
+.hero{
+    background-image:url(../img/hero4.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:70vh;
+}
+
+.padre{
+    position:relative;
+}
+
+.presentation{
+    color:white;
+    padding-top:5em;
+}
+
+.presentation h1{
+    font-family:'Roboto';
+    font-size:38px;
+}
+
+.presentation p{
+    font-size:20px;
+}
+
+.btn{
+    margin-top:20px;
+    background-color:#e2361c;
+    color:white;
+    padding:10px;
+    border-radius:10%;
+
+}
+
+.capa{
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background-color:rgba(0,0,0,0.5);
+}
